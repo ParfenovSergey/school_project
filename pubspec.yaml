@@ -1,0 +1,36 @@
+name: school_project
+description: "Информационный сайт школьного исследовательского проекта"
+publish_to: 'none'
+version: 0.2.0+2
+
+environment:
+  sdk: ^3.13.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  url_launcher: ^6.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/
+    - assets/images/project/
+    - assets/images/groups/
+  fonts:
+    - family: AmaticSC
+      fonts:
+        - asset: assets/fonts/amaticsc/AmaticSC-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/amaticsc/AmaticSC-Bold.ttf
+          weight: 700
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/nunito/Nunito-Variable.ttf
